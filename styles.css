@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
+Brown: #6d4c41
+Green: #4caf50
+Light green: #8bc34a
+Yellow: #ffeb3b
+Orange: #ff9800
+Red: #f44336
+ */
+
+/* 
+ Dark green: #2e7d32
+Light green: #7cb342
+Lime green: #cddc39
+Teal: #009688
+Light teal: #26a69a
+Mint: #66bb6a
+ */
+
+/* MENU */
+.nav-wrapper ul li a,
+.sidenav li a {
+  color: red;
+}
+
+.sidenav-overlay {
+  color: red;
+}
+
+.hero {
+  background-image: url(img/pexels-photo-7061672.jpeg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+blockquote {
+  border-left: 5px solid red;
+}
+
+.about {
+  padding: 2rem 0;
+  color: beige;
+}
+
+.card {
+  min-height: 280px;
+}
+
+.cards {
+  padding: 2rem 1rem 0;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+/* USLUGE */
+
+.first-img {
+  background-image: url(img/pexels-photo-7061672.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.carousel .carousel-item > img {
+  width: 270%;
+  margin-left: -80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .second,
+  .sixth {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel .carousel-item > img {
+    width: 170%;
+    margin-left: -35%;
+  }
+
+  #logo {
+    height: 4.1rem;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+  .carousel-slider {
+    margin-left: -7%;
+  }
+} */
+
+/* ZALIVNI SISTEMI */
+
+.zal-one {
+  background-image: url(img/zal/1.jpg);
+}
+
+.zal-two {
+  background-image: url(img/zal/2.jpg);
+}
+.zal-three {
+  background-image: url(img/zal/3.jpg);
+}
+.zal-four {
+  background-image: url(img/zal/4.jpg);
+}
+.zal-five {
+  background-image: url(img/zal/5.jpg);
+}
+.zal-six {
+  background-image: url(img/zal/6.jpg);
+}
+.zal-seven {
+  background-image: url(img/zal/7.jpg);
+}
+
+.zal-one,
+.zal-two,
+.zal-three,
+.zal-four,
+.zal-five,
+.zal-six,
+.zal-seven {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* KROVNE BAŠTE */
+
+.kro-one {
+  background-image: url(img/kro/1.jpg);
+}
+
+.kro-two {
+  background-image: url(img/kro/2.jpg);
+}
+.kro-three {
+  background-image: url(img/kro/3.jpg);
+}
+.kro-four {
+  background-image: url(img/kro/4.jpg);
+}
+.kro-five {
+  background-image: url(img/kro/5.jpg);
+}
+.kro-six {
+  background-image: url(img/kro/6.jpg);
+}
+.kro-seven {
+  background-image: url(img/kro/7.jpg);
+}
+
+.kro-one,
+.kro-two,
+.kro-three,
+.kro-four,
+.kro-five,
+.kro-six,
+.kro-seven {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
