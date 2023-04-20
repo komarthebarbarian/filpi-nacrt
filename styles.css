@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #212121;
+  /* color: #121212; */
 }
 
 /* 
@@ -24,23 +26,21 @@ Mint: #66bb6a
  */
 
 /* MENU */
-.nav-wrapper ul li a,
-.sidenav li a {
-  color: red;
-}
-
-.sidenav-overlay {
-  color: red;
-}
 
 .hero {
-  background-image: url(img/pexels-photo-7061672.jpeg);
+  position: relative;
   height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   display: flex;
   align-items: center;
+  z-index: -1;
+}
+
+.relative {
+  position: absolute;
+  left: 15%;
+  top: 5rem;
+  z-index: 10;
 }
 
 blockquote {
@@ -49,11 +49,30 @@ blockquote {
 
 .about {
   padding: 2rem 0;
-  color: beige;
+}
+
+.mtop {
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .mmtop {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .ddown {
+    margin-bottom: 3rem;
+  }
+}
+
+.mdown {
+  margin-bottom: 3rem;
 }
 
 .card {
-  min-height: 280px;
+  min-height: 220px;
 }
 
 .cards {
@@ -65,15 +84,6 @@ blockquote {
 }
 
 /* USLUGE */
-
-.first-img {
-  background-image: url(img/pexels-photo-7061672.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 400px;
-}
 
 .carousel .carousel-item > img {
   width: 270%;
@@ -95,12 +105,6 @@ blockquote {
     height: 4.1rem;
   }
 }
-
-/* @media only screen and (min-width: 600px) {
-  .carousel-slider {
-    margin-left: -7%;
-  }
-} */
 
 /* ZALIVNI SISTEMI */
 
@@ -174,4 +178,71 @@ blockquote {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* GALERIJA */
+.gallery {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,6 +36,7 @@
     ></script>
     <link rel="stylesheet" href="styles.css" />
     <!-- Script -->
+    <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
     <script defer src="script.js" type="text/javascript"></script>
   </head>
   <body>
@@ -51,31 +52,61 @@
               width="250px"
           /></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-            ><i class="material-icons red-text text-darken-3">menu</i></a
+            ><i class="material-icons grey-text grey-darken-3">menu</i></a
           >
-          <!-- NAMESTI TEXT COLOR KAKO TREBA -->
           <ul class="right hide-on-med-and-down">
             <li>
               <a
-                href="index.html"
-                class="waves-effect waves-teal btn-flat"
-                href="#"
+                href="./index.html"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
                 >Naslovna</a
               >
             </li>
             <li>
               <a
-                href="usluge.html"
-                class="waves-effect waves-teal btn-flat"
-                href="#"
+                href="./usluge.html"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
                 >Usluge</a
               >
             </li>
             <li>
-              <a class="waves-effect waves-teal btn-flat" href="#">čovek na</a>
+              <a
+                href="./usluge.html#cenovnik"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+                href="#"
+                >Cenovnik</a
+              >
             </li>
             <li>
-              <a class="waves-effect waves-teal btn-flat" href="#">planeti</a>
+              <a
+                href="./galerija.html"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+                href="#"
+                >Galerija</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#kontakt"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+                >Kontakt</a
+              >
+            </li>
+            <li class="center-align">
+              <img
+                lang="sr"
+                class="language"
+                src="img/lang-en.png"
+                alt="lang"
+                width="34px"
+              />
+              <img
+                class="language"
+                lang="en"
+                src="img/lang-sr.png"
+                alt="lang"
+                width="34px"
+              />
             </li>
           </ul>
         </div>
@@ -84,240 +115,265 @@
 
     <ul class="sidenav" id="mobile-demo">
       <li>
-        <a href="index.html" class="waves-effect waves-teal btn-flat" href="#"
+        <a
+          href="./index.html"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
           >Naslovna</a
         >
       </li>
       <li>
-        <a href="usluge.html" class="waves-effect waves-teal btn-flat" href="#"
+        <a
+          href="./usluge.html"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
           >Usluge</a
         >
       </li>
-      <li><a class="waves-effect waves-teal btn-flat" href="#">čovek</a></li>
       <li>
-        <a class="waves-effect waves-teal btn-flat" href="#">na planeti</a>
+        <a
+          href="./usluge.html#cenovnik"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+          href="#"
+          >Cenovnik</a
+        >
+      </li>
+      <li>
+        <a
+          href="./galerija.html"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+          href="#"
+          >Galerija</a
+        >
+      </li>
+      <li>
+        <a
+          href="./index.html#kontakt"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+          >Kontakt</a
+        >
+      </li>
+      <li class="center-align">
+        <img
+          lang="sr"
+          class="language"
+          src="img/lang-en.png"
+          alt="lang"
+          width="34px"
+        />
+        <img
+          class="language"
+          lang="en"
+          src="img/lang-sr.png"
+          alt="lang"
+          width="34px"
+        />
       </li>
     </ul>
 
     <!-- HERO -->
-    <header class="hero">
-      <div class="container">
-        <div>
-          <blockquote class="green-text text-darken-3">
-            <h3>filpi</h3>
-            <h5>Vaše zelene površine - naš posao</h5>
-          </blockquote>
-          <a href="usluge.html" class="waves-effect waves-light btn-large"
-            ><i class="material-icons left">spa</i>usluge</a
-          >
-          <a href="#" class="waves-effect waves-light btn-large"
-            ><i class="material-icons left">phone</i>kontakt</a
-          >
-        </div>
+    <header class="hero carousel-item" href="#one!">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/1.jpg" />
+          </li>
+          <li>
+            <img src="img/2.jpg" />
+          </li>
+          <li>
+            <img src="img/3.jpg" />
+          </li>
+          <li>
+            <img src="img/4.jpg" />
+          </li>
+        </ul>
+        <!-- <div class="container relative">
+          <div>
+            <blockquote>
+              <h3 class="green-text text-lighten-3">filpi</h3>
+              <h5 class="green-text text-darken-3">speaking green</h5>
+            </blockquote>
+            <a href="./usluge.html" class="waves-effect waves-light btn-large"
+              ><i class="material-icons white-text left">spa</i>usluge</a
+            >
+            <a href="#" class="waves-effect waves-light btn-large"
+              ><i class="material-icons white-text left">phone</i>kontakt</a
+            >
+          </div>
+        </div> -->
       </div>
     </header>
     <!-- ABOUT US FIRST-->
-    <div class="about teal lighten-4">
-      <div class="container center">
-        <h5>
-          Добродошли у filpi, компанију која је специјализована за пружање
-          висококвалитетних услуга уређења и одржавања зеленила стамбених и
-          пословних објеката и заливних система. Са више од десет година
-          искуства у својој области, наш тим вештих професионалаца посвећен је
-          стварању лепих и функционалних спољашњих простора који превазилазе
-          очекивања наших клијената.
-        </h5>
-      </div>
+    <div class="container center">
+      <h5>
+        Dobrodošli u filpi, kompaniju koja je specijalizovana za pružanje
+        visokokvalitetnih usluga uređenja i održavanja zelenila stambenih i
+        poslovnih objekata i instalacije zalivnih sistema. Sa više od deset
+        godina iskustva u svojoj oblasti, naš tim veštih profesionalaca posvećen
+        je stvaranju lepih i funkcionalnih spoljašnjih prostora koji prevazilaze
+        očekivanja naših klijenata.
+      </h5>
     </div>
     <!-- ABOUT US FIRST END -->
     <!-- USLUGE -->
     <div class="cards row">
       <div class="row">
         <!-- FIRST -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="90px" />
-            </div>
-            <div class="card-content">
-              <p>Podizanje zelenih površina</p>
-            </div>
-            <div class="card-action center">
-              <a href="#">Više</a>
+        <a href="./usluge.html#podizanje-zelenih-povrsina">
+          <div class="col s6 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/pod/1.jpg" width="90px" />
+              </div>
+              <div class="card-content">
+                <p>Podizanje zelenih površina</p>
+              </div>
+              <div class="card-action center">
+                <a href="./usluge.html#podizanje-zelenih-povrsina">Više</a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- SECOND -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Održavanje zelenih površina</p>
-            </div>
-            <div class="card-action center">
-              <a href="#">Više</a>
+        <a href="./usluge.html#odrzavanje-zelenih-povrsina">
+          <div class="col s6 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/odr/10.jpg" width="150px" />
+              </div>
+              <div class="card-content">
+                <p>Održavanje zelenih površina</p>
+              </div>
+              <div class="card-action center">
+                <a href="./usluge.html#odrzavanje-zelenih-povrsina">Više</a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- THIRD -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Zalivni sistemi</p>
-            </div>
-            <div class="card-action center">
-              <a href="#">Više</a>
+        <a href="./usluge.html#zalivni-sistemi">
+          <div class="col s6 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/zal/1.jpg" width="150px" />
+              </div>
+              <div class="card-content">
+                <p>Zalivni sistemi</p>
+              </div>
+              <div class="card-action center">
+                <a href="./usluge.html#zalivni-sistemi">Više</a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- FOURTH -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Zelene površine</p>
-            </div>
-            <div class="card-action center">
-              <a href="#">Više</a>
+        <a href="./usluge.html">
+          <div class="col s6 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/zel/1.jpg" width="150px" />
+              </div>
+              <div class="card-content">
+                <p>Zelene površine</p>
+              </div>
+              <div class="card-action center">
+                <a href="./usluge.html">Više</a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- FIFTH -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Enterijer i dekoracija</p>
-            </div>
-            <div class="card-action center">
-              <a href="#">Više</a>
+        <a href="./usluge.html#enterijer">
+          <div class="col s6 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/ent/1.jpg" width="150px" />
+              </div>
+              <div class="card-content">
+                <p>Enterijer i dekoracija</p>
+              </div>
+              <div class="card-action center">
+                <a href="./usluge.html#enterijer">Više</a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- SIXTH -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Izrada idejnih rešenja</p>
-            </div>
-            <div class="card-action center">
-              <a href="#">Više</a>
+        <a href="./usluge.html#idejna-resenja">
+          <div class="col s6 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/izr/111.jpg" width="150px" />
+              </div>
+              <div class="card-content">
+                <p>Izrada idejnih rešenja</p>
+              </div>
+              <div class="card-action center">
+                <a href="./usluge.html#idejna-resenja">Više</a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- LAST -->
       </div>
     </div>
     <!-- USLUGE FIRST END-->
     <!-- ABOUT US SECOND-->
-    <div class="about teal lighten-4">
-      <div class="container center">
-        <h5>
-          Filpi поставља клијенте на прво место. Дрижимо се праксе блиске
-          сарадње са сваким клијентом како бисмо разумели његове јединствене
-          потребе и преференције и прилагодили наше услуге у складу са истим.
-          Било да вам је потребна нега травњака, дизајн баште или орезивање
-          дрвећа, имамо стручност и ресурсе да посао обавимо како треба.
-        </h5>
-      </div>
+    <div class="container center">
+      <h5>
+        Filpi postavlja klijente na prvo mesto. Drižimo se prakse bliske
+        saradnje sa svakim klijentom kako bismo razumeli njegove jedinstvene
+        potrebe i preferencije i prilagodili naše usluge u skladu sa istim. Bilo
+        da vam je potrebna nega travnjaka, dizajn bašte ili orezivanje drveća,
+        imamo stručnost i resurse da posao obavimo kako treba.
+      </h5>
     </div>
     <!-- ABOUT US SECOND END -->
     <!-- USLUGE SECOND -->
     <div class="cards row">
       <div class="row">
         <!-- FIRST -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="90px" />
-            </div>
-            <div class="card-content">
-              <p>Krovne bašte</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
+        <a href="./usluge.html#krovne-baste">
+          <div class="col s6 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/kro/1.jpg" width="90px" />
+              </div>
+              <div class="card-content">
+                <p>Krovne bašte</p>
+              </div>
+              <div class="card-action center">
+                <a href="./usluge.html#krovne-baste">Više</a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- SECOND -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Rekonstrukcija zelenih površina</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
+        <a href="./usluge.html#orezivanje">
+          <div class="col s6 m4">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/sec/7.jpg" width="150px" />
+              </div>
+              <div class="card-content">
+                <p>Seča i orezivanje</p>
+              </div>
+              <div class="card-action">
+                <a href="./usluge.html#orezivanje">Više</a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <!-- THIRD -->
         <div class="col s6 m4">
           <div class="card hoverable">
             <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
+              <img src="img/pod/3.jpg" width="150px" />
             </div>
             <div class="card-content">
               <p>Sadnja i sadnice</p>
             </div>
             <div class="card-action">
-              <a href="#">Više</a>
-            </div>
-          </div>
-        </div>
-        <!-- FOURTH -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Seča i orezivanje</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
-            </div>
-          </div>
-        </div>
-        <!-- FIFTH -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Proizvodnja sadnog materijala</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
-            </div>
-          </div>
-        </div>
-        <!-- SIXTH -->
-        <div class="col s6 m4">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="img/pexels-photo-7061672.jpeg" width="150px" />
-            </div>
-            <div class="card-content">
-              <p>Krčenje terena</p>
-            </div>
-            <div class="card-action">
-              <a href="#">Više</a>
+              <a href="./usluge.html#podizanje-zelenih-povrsina">Više</a>
             </div>
           </div>
         </div>
@@ -326,45 +382,59 @@
     </div>
     <!-- USLUGE SECOND END-->
     <!-- ABOUT US THIRD-->
-    <div class="about teal lighten-4">
-      <div class="container center">
-        <h5>
-          Посвећени смо пружању изузетне услуге купцима и трудимо се да читав
-          процес учинимо што лакшим и без стреса за наше клијенте. Са нама
-          можете бити сигурни да су ваше потребе за уређењем зелених површина у
-          добрим рукама. Контактирајте нас данас да бисте сазнали више о нашим
-          услугама и заказали консултације.
-        </h5>
-      </div>
+    <div class="container center">
+      <h5>
+        Posvećeni smo pružanju izuzetne usluge kupcima i trudimo se da čitav
+        proces učinimo što lakšim i bez stresa za naše klijente. Sa nama možete
+        biti sigurni da su vaše potrebe za uređenjem zelenih površina u dobrim
+        rukama. Kontaktirajte nas danas da biste saznali više o našim uslugama i
+        zakazali konsultacije.
+      </h5>
     </div>
     <!-- ABOUT US THIRD END -->
     <!-- FOOTER -->
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Kontakt</h5>
-            <p class="grey-text text-lighten-4">
-              Ne zovite Žiku posle 18:00 ako vam je život mio.
+    <footer id="kontakt" class="page-footer teal lighten-5">
+      <h4 class="center">Kontakt</h4>
+      <div class="container row mtop">
+        <div class="col s12 m6">
+          <div class="row">
+            <p>
+              <i class="ph ph-map-pin"></i>
+              Adressa:
+              <a target="_blank" href="https://goo.gl/maps/EE4NGzCcQHj7YuXB7"
+                >Karađorđeva 36a, Inđija</a
+              >
+            </p>
+
+            <p class="mtop">
+              <i class="ph ph-phone"></i>
+              Konktakt telefon:
+              <a href="tel:+381641345953"> +381641345953</a>
             </p>
           </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Društvene mreže</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Viber</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Whatsup</a></li>
-              <li>
-                <a class="grey-text text-lighten-3" href="#!">Facebook</a>
-              </li>
-            </ul>
+        </div>
+        <div class="col s12 m6 mdown">
+          <div class="row">
+            <p class="mmtop">
+              <i class="ph ph-envelope-simple"></i>
+              Email:
+              <a target="_blank" href="mailto:filpi.speakinggreen@gmail.com"
+                >filpi.speakinggreen@gmail.com</a
+              >
+            </p>
+
+            <p class="mtop">
+              <i class="ph ph-instagram-logo"></i>
+              Instagram:
+              <a target="_blank" href="https://www.instagram.com/f_i_l_p_i/">
+                #f_i_l_p_i</a
+              >
+            </p>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
-        <div class="container center">
-          © filpi 2023. Sva prava zadržana
-          <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
-        </div>
+      <div class="footer-copyright teal lighten-4">
+        <div class="container center">© filpi 2023. Sva prava zadržana</div>
       </div>
     </footer>
   </body>

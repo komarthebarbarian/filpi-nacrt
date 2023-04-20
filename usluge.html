@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -44,34 +44,68 @@
       <nav>
         <div class="nav-wrapper light-green lighten-5">
           <a href="index.html" class="brand-logo"
-            ><img src="img/logo.png" alt="logo firme filpi" width="250px"
+            ><img
+              id="logo"
+              src="img/logo.png"
+              alt="logo firme filpi"
+              width="250px"
           /></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-            ><i class="material-icons red-text text-darken-3">menu</i></a
+            ><i class="material-icons grey-text grey-darken-3">menu</i></a
           >
-          <!-- NAMESTI TEXT COLOR KAKO TREBA -->
           <ul class="right hide-on-med-and-down">
             <li>
               <a
-                href="index.html"
-                class="waves-effect waves-teal btn-flat"
-                href="#"
+                href="./index.html"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
                 >Naslovna</a
               >
             </li>
             <li>
               <a
-                href="usluge.html"
-                class="waves-effect waves-teal btn-flat"
-                href="#"
+                href="./usluge.html"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
                 >Usluge</a
               >
             </li>
             <li>
-              <a class="waves-effect waves-teal btn-flat" href="#">čovek na</a>
+              <a
+                href="./usluge.html#cenovnik"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+                href="#"
+                >Cenovnik</a
+              >
             </li>
             <li>
-              <a class="waves-effect waves-teal btn-flat" href="#">planeti</a>
+              <a
+                href="./galerija.html"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+                href="#"
+                >Galerija</a
+              >
+            </li>
+            <li>
+              <a
+                href="./index.html#kontakt"
+                class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+                >Kontakt</a
+              >
+            </li>
+            <li>
+              <img
+                lang="sr"
+                class="language"
+                src="img/lang-en.png"
+                alt="lang"
+                width="34px"
+              />
+              <img
+                class="language"
+                lang="en"
+                src="img/lang-sr.png"
+                alt="lang"
+                width="34px"
+              />
             </li>
           </ul>
         </div>
@@ -80,36 +114,237 @@
 
     <ul class="sidenav" id="mobile-demo">
       <li>
-        <a href="index.html" class="waves-effect waves-teal btn-flat" href="#"
+        <a
+          href="./index.html"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
           >Naslovna</a
         >
       </li>
       <li>
-        <a href="usluge.html" class="waves-effect waves-teal btn-flat" href="#"
+        <a
+          href="./usluge.html"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
           >Usluge</a
         >
       </li>
-      <li><a class="waves-effect waves-teal btn-flat" href="#">čovek</a></li>
       <li>
-        <a class="waves-effect waves-teal btn-flat" href="#">na planeti</a>
+        <a
+          href="./usluge.html#cenovnik"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+          href="#"
+          >Cenovnik</a
+        >
+      </li>
+      <li>
+        <a
+          href="./galerija.html"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+          href="#"
+          >Galerija</a
+        >
+      </li>
+      <li>
+        <a
+          href="./index.html#kontakt"
+          class="waves-effect waves-light text-grey text-darken-4 btn-flat"
+          >Kontakt</a
+        >
       </li>
     </ul>
-
     <!-- USLUGE -->
     <div class="row">
-      <h1 class="center">Naše usluge</h1>
-      <p>
-        Поносни смо што користимо само најбољу опрему и материјале у свим нашим
-        пројектима и што смо у току са најновијим техникама и трендовима уређења
-        пејзажа. Наш циљ је не само да створимо прелепе спољашње просторе, већ и
-        да обезбедимо да они буду одрживи и еколошки прихватљиви.
-      </p>
+      <div>
+        <div>
+          <!-- Container for the image gallery -->
+          <div class="gallery">
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+              <div class="numbertext">1 / 12</div>
+              <img src="img/zel/1.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 12</div>
+              <img src="img/zel/2.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 12</div>
+              <img src="img/zel/3.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 12</div>
+              <img src="img/zel/4.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 12</div>
+              <img src="img/zel/5.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 12</div>
+              <img src="img/zel/6.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">7 / 12</div>
+              <img src="img/zel/7.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">8 / 12</div>
+              <img src="img/zel/8.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">9 / 12</div>
+              <img src="img/zel/9.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">10 / 12</div>
+              <img src="img/zel/10.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">11 / 12</div>
+              <img src="img/zel/11.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">12 / 12</div>
+              <img src="img/zel/12.jpg" style="width: 100%" />
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/1.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(1)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/2.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(2)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/3.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(3)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/4.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(4)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/5.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(5)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/6.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(6)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/7.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(6)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/8.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(6)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/9.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(6)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/10.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(6)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/11.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(6)"
+                />
+              </div>
+              <div class="column">
+                <img
+                  class="demo cursor"
+                  src="img/zel/12.jpg"
+                  style="width: 100%"
+                  onclick="currentSlide(6)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container row">
+          <h1 class="center">Naše usluge</h1>
+          <h5 class="center mdown">
+            Ponosni smo što koristimo samo najbolju opremu i materijale u svim
+            našim projektima i što smo u toku sa najnovijim tehnikama i
+            trendovima uređenja pejzaža. Naš cilj je ne samo da stvorimo prelepe
+            spoljašnje prostore, već i da obezbedimo da oni budu održivi i
+            ekološki prihvatljivi.
+          </h5>
+        </div>
+      </div>
       <!-- FIRST -->
-      <div class="first row">
+      <div id="podizanje-zelenih-povrsina" class="first row">
         <div class="col s12 m6">
           <div class="container">
             <h3>Podizanje zelenih površina</h3>
-            <p>
+            <p class="mdown">
               Naš tim iskustvom i stručnošću ponosi se u svojoj oblasti. Tokom
               niza godina uspeli smo da podignemo veliki broj funkcionalnih
               zelenih površina (preko stotinu površina raznih tipova i namene,
@@ -120,36 +355,73 @@
             </p>
           </div>
         </div>
-        <div class="first-img col s12 m6">
-          <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"
-              ><img src="img/pexels-photo-7061672.jpeg"
-            /></a>
-            <a class="carousel-item" href="#two!"
-              ><img src="img/pexels-photo-7061672.jpeg"
-            /></a>
-            <a class="carousel-item" href="#three!"
-              ><img src="img/pexels-photo-7061672.jpeg"
-            /></a>
-            <a class="carousel-item" href="#four!"
-              ><img src="img/pexels-photo-7061672.jpeg"
-            /></a>
-            <a class="carousel-item" href="#four!"
-              ><img src="img/pexels-photo-7061672.jpeg"
-            /></a>
-            <a class="carousel-item" href="#four!"
-              ><img src="img/pexels-photo-7061672.jpeg"
-            /></a>
+        <div class="col s12 m6">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2"
+                >Galerija</a
+              >
+            </div>
+            <div class="carousel-item white-text" href="#one!">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/pod/1.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/pod/2.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/pod/3.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/pod/4.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/pod/5.jpg" />
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <!-- SECOND -->
-      <div class="second row">
-        <div class="first-img col s12 m6"></div>
+      <div id="odrzavanje-zelenih-povrsina" class="second row">
+        <div class="col s12 m6">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2"
+                >Galerija</a
+              >
+            </div>
+            <div class="carousel-item white-text" href="#one!">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/odr/1.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/odr/2.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/odr/3.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/odr/4.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/odr/5.jpg" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col s12 m6">
           <div class="container">
             <h3>Održavanje zelenih površina</h3>
-            <p>
+            <p class="mdown">
               Uspešno se bavimo održavanjem zelenih površina dugi niz godina. U
               redovnom održavanju imamo preko četrdeset objekata i još toliko u
               povremenom. Na prvom mestu nam je poboljšanje kvaliteta zelenila,
@@ -160,11 +432,11 @@
         </div>
       </div>
       <!-- THIRD -->
-      <div class="third row">
+      <div id="zalivni-sistemi" class="third row">
         <div class="col s12 m6">
           <div class="container">
             <h3>Zalivni sistemi</h3>
-            <p>
+            <p class="mdown">
               U vremenu sveprisutnih klimatskih promena zelene površine
               praktično ne mogu da se pravilno razvijaju i daju potreban
               estetski doživljaj i sliku ukoliko ne postoje zalivni sistemi. Na
@@ -177,83 +449,40 @@
           </div>
         </div>
         <div class="col s12 m6">
-          <div class="carousel carousel-slider">
-            <div class="carousel-item zal-one white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
+          <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2"
+                >Galerija</a
+              >
             </div>
-            <div class="carousel-item zal-two white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item zal-three white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item zal-four white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item zal-five white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item zal-six white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item zal-seven white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
+            <div class="carousel-item white-text" href="#one!">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/zal/1.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/zal/2.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/zal/3.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/zal/4.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/zal/5.jpg" />
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!-- FOURTH -->
-      <div class="fourth row">
+      <div id="enterijer" class="fourth row">
         <div class="center">
-          <div class="carousel">
-            <h3>Zelene površine</h3>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/1.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/2.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/3.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/4.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/5.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/6.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/7.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/8.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/9.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/10.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/11.jpg"
-            /></a>
-            <a class="carousel-item" href="#one!"
-              ><img src="img/zel/12.jpg"
-            /></a>
-          </div>
-        </div>
-        <div class="center">
-          <div class="carousel">
+          <div class="carousel ddown">
             <h3>Enterijer i dekoracija</h3>
             <a class="carousel-item" href="#one!"
               ><img src="img/ent/1.jpg"
@@ -277,26 +506,59 @@
         </div>
       </div>
       <!-- FIFTH -->
-      <div class="fifth row">
+      <div id="idejna-resenja" class="fifth row desk-mtop">
         <div class="col s12 m6">
           <div class="container">
             <h3>Izrada idejnih rešenja</h3>
-            <p>
+            <p class="mdown">
               Naš stručni tim izrađuje idejna rešenja za spoljašnji prostor
               vaših domova, vikend kuća ili poslovnih objekata. U dogovoru sa
-              klijentom možemo učiniti da ideje budu ostvarene na terenu.
+              klijentom možemo učiniti da vaše ideje postanu stvarnost.
             </p>
           </div>
         </div>
-        <div class="first-img col s12 m6"></div>
+        <div class="col s12 m6">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2"
+                >Galerija</a
+              >
+            </div>
+            <div class="carousel-item white-text" href="#one!">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/izr/1 - Osnova PS-Model.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/izr/7.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/izr/Idejno -Barajevo.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/izr/5.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/izr/18.jpg" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- SIXTH -->
-      <div class="sixth row">
-        <div class="first-img col s12 m6"></div>
+      <div id="orezivanje" class="sixth row">
+        <div class="col s12 m6">
+          <video class="responsive-video" controls>
+            <source src="img/sec/video.mp4" type="video/mp4" />
+          </video>
+        </div>
         <div class="col s12 m6">
           <div class="container">
             <h3>Seča i orezivanje</h3>
-            <p>
+            <p class="mdown">
               Bavimo se sečom i uklanjanjem stabala i nepoželjne vegetacije, kao
               i stručnom rezidbom. Za naš iskusan tim ne postoji problem koji je
               nemoguće rešiti.
@@ -305,11 +567,11 @@
         </div>
       </div>
       <!-- SEVENTH -->
-      <div class="seventh row">
+      <div id="krovne-baste" class="seventh row">
         <div class="col s12 m6">
           <div class="container">
             <h3>Krovne bašte</h3>
-            <p>
+            <p class="mdown">
               Sve popularniji vid ozelenjavanja u urbanim sredinama. Omogućićemo
               da se osećate udobno i približiti vam prirodu u ekstremnim urbanim
               uslovima.
@@ -317,80 +579,94 @@
           </div>
         </div>
         <div class="col s12 m6">
-          <div class="carousel carousel-slider">
-            <div class="carousel-item kro-one white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
+          <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2"
+                >Galerija</a
+              >
             </div>
-            <div class="carousel-item kro-two white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item kro-three white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item kro-four white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item kro-five white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item kro-six white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
-            </div>
-            <div class="carousel-item kro-seven white-text" href="#one!">
-              <h2>First Panel</h2>
-              <p class="white-text">This is your first panel</p>
+            <div class="carousel-item white-text" href="#one!">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/kro/1.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/kro/2.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/kro/3.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/kro/4.jpg" />
+                  </li>
+                  <li>
+                    <img src="img/kro/5.jpg" />
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="eight center">
-        <h3>Sadnja i sadnice</h3>
-        <div class="row">
-          <img class="responsive-img" src="img/images.jpg" />
-          <img class="responsive-img" src="img/images.jpg" />
-          <img class="responsive-img" src="img/images.jpg" />
-          <img class="responsive-img" src="img/images.jpg" />
-          <img class="responsive-img" src="img/images.jpg" />
-          <img class="responsive-img" src="img/images.jpg" />
-          <img class="responsive-img" src="img/images.jpg" />
-          <img class="responsive-img" src="img/images.jpg" />
-        </div>
-        <p>
-          Bavimo se nabavkom, transportom i sadnjom svih vrsta sadnog
-          materijala, uvoznog, kao i iz domaćih rasadnika.
-        </p>
-      </div>
-      <div class="ninght center">
-        <div class="about teal lighten-4">
-          <div class="container center">
-            <h3>Krčenje terena</h3>
-            <p>
-              Uspešno se bavimo krčenjem terena (priprema za podizanje objekata
-              i vrtova).
-            </p>
-            <div class="row">
-              <img src="img/krc/1.jpg" alt="" width="250px" />
-              <img src="img/krc/2.jpg" alt="" width="250px" />
-              <img src="img/krc/3.jpg" alt="" width="250px" />
-            </div>
-            <h5>
-              Посвећени смо пружању изузетне услуге купцима и трудимо се да
-              читав процес учинимо што лакшим и без стреса за наше клијенте. Са
-              нама можете бити сигурни да су ваше потребе за уређењем зелених
-              површина у добрим рукама. Контактирајте нас данас да бисте сазнали
-              више о нашим услугама и заказали консултације.
-            </h5>
-          </div>
+      <div id="cenovnik" class="ninght center">
+        <div class="container center">
+          <h5>
+            Posvećeni smo pružanju izuzetne usluge kupcima i trudimo se da čitav
+            proces učinimo što lakšim i bez stresa za naše klijente. Sa nama
+            možete biti sigurni da su vaše potrebe za uređenjem zelenih površina
+            u dobrim rukama. Kontaktirajte nas danas da biste saznali više o
+            našim uslugama i zakazali konsultacije.
+          </h5>
         </div>
       </div>
     </div>
     <!-- USLUGE END -->
+    <!-- FOOTER -->
+    <footer id="kontakt" class="page-footer teal lighten-5">
+      <h4 class="center">Kontakt</h4>
+      <div class="container row mtop">
+        <div class="col s12 m6">
+          <div class="row">
+            <p>
+              <i class="ph ph-map-pin"></i>
+              Adressa:
+              <a target="_blank" href="https://goo.gl/maps/EE4NGzCcQHj7YuXB7"
+                >Karađorđeva 36a, Inđija</a
+              >
+            </p>
+
+            <p class="mtop">
+              <i class="ph ph-phone"></i>
+              Konktakt telefon:
+              <a href="tel:+381641345953"> +381641345953</a>
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m6 mdown">
+          <div class="row">
+            <p class="mmtop">
+              <i class="ph ph-envelope-simple"></i>
+              Email:
+              <a target="_blank" href="mailto:filpi.speakinggreen@gmail.com"
+                >filpi.speakinggreen@gmail.com</a
+              >
+            </p>
+
+            <p class="mtop">
+              <i class="ph ph-instagram-logo"></i>
+              Instagram:
+              <a target="_blank" href="https://www.instagram.com/f_i_l_p_i/">
+                #f_i_l_p_i</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright teal lighten-4">
+        <div class="container center">© filpi 2023. Sva prava zadržana</div>
+      </div>
+    </footer>
   </body>
 </html>
